@@ -24,5 +24,31 @@
                 "class": "loginBtnAdjust"
             }
         }
+    },
+    "新北高工": {
+        "api": "https://elife.ntvs.ntpc.edu.tw",
+        "url": {
+            "login": "/auth/Auth/Login",
+            "logined": "/online/student/frames.asp",
+            "root": "/"
+        },
+        "login": {
+            "username": {
+                "name": "studentLId"
+            },
+            "password": {
+                "name": "studentPwd"
+            },
+            "captcha": {
+                "name": "shCaptchaImageInput"
+            },
+            "captchaImage": {
+                "selector": "captcha-image",
+                "type": "class"
+            },
+            "button": {
+                "class": "loginBtnAdjust"
+            }
+        }
     }
 }
