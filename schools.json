@@ -25,6 +25,32 @@
             }
         }
     },
+    "三重商工": {
+        "api": "https://score.scvs.ntpc.edu.tw",
+        "url": {
+            "login": "/online",
+            "logined": "/online/student/frames.asp",
+            "root": "/"
+        },
+        "login": {
+            "username": {
+                "name": "Loginid"
+            },
+            "password": {
+                "name": "LoginPwd"
+            },
+            "captcha": {
+                "name": "vcode"
+            },
+            "captchaImage": {
+                "selector": "imgvcode",
+                "type": "id"
+            },
+            "button": {
+                "class": "Enter"
+            }
+        }
+    },
     "新北高工": {
         "api": "https://elife.ntvs.ntpc.edu.tw",
         "url": {
@@ -44,7 +70,7 @@
             },
             "captchaImage": {
                 "selector": "captcha-image",
-                "type": "class"
+                "type": "id"
             },
             "button": {
                 "class": "loginBtnAdjust"
